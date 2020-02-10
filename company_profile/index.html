@@ -125,6 +125,79 @@
         </div>
         <!-- Clients End -->
 
+        <!-- Services Start -->
+        <section id="service" class="service grey lighten-4">
+           <div class="container">
+                <div class="row">
+                    <h3 class="light center grey-text text-darken-3"> Our Services </h3>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">desktop_windows</i>
+                            <h5> Web Development </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">developer_mode</i>
+                            <h5> Mobile App </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">laptop_windows</i>
+                            <h5> Desktop App </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <!-- Services End -->
+
+        <!-- Portfolio Start -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3"> Portfolio </h3>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/1.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/2.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/3.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/4.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/6.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/1.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/2.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/3.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio End -->
+
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>
@@ -143,6 +216,10 @@
         //Parallax
         const parallax = document.querySelectorAll('.parallax');
         M.Parallax.init(parallax);
+
+        //Lightbox
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
 
 
       </script>
