@@ -15,21 +15,21 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
-    <body>
+    <body id="home" class="scrollspy">
 
         <!-- Navbar Start -->
         <div class="navbar-fixed">
             <nav class="indigo darken-2">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo">GWC</a>
+                        <a href="#home" class="brand-logo">GWC</a>
                         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Clients</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Portfolio</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#cta">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,11 +39,11 @@
 
         <!-- Sidenav Start -->
         <ul id="mobile-nav" class="sidenav">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Clients</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#cta">Contact Us</a></li>
         </ul>
         <!-- Sidenav End -->
 
@@ -76,7 +76,7 @@
         <!-- Slider End -->
 
         <!-- Section About Start -->
-        <section id="about" class="about">
+        <section id="about" class="about scrollspy">
             <div class="container">
                 <div class="row">
                     <h3 class="center light grey-text text-darken-3"> About Us </h3>
@@ -104,7 +104,7 @@
         <!-- Section About End -->
 
         <!-- Clients Start -->
-        <div class="parallax-container">
+        <div id="clients" class="parallax-container scrollspy">
             <div class="parallax"><img src="img/slider/4.png"></div>
 
             <div class="container">
@@ -125,6 +125,142 @@
         </div>
         <!-- Clients End -->
 
+        <!-- Services Start -->
+        <section id="service" class="service grey lighten-4 scrollspy">
+           <div class="container">
+                <div class="row">
+                    <h3 class="light center grey-text text-darken-3"> Our Services </h3>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">desktop_windows</i>
+                            <h5> Web Development </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">developer_mode</i>
+                            <h5> Mobile App </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div class="card-panel center">
+                            <i class="material-icons medium">laptop_windows</i>
+                            <h5> Desktop App </h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <!-- Services End -->
+
+        <!-- Portfolio Start -->
+        <section id="portfolio" class="portfolio scrollspy">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3"> Portfolio </h3>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/1.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/2.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/3.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/4.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/6.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/1.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/2.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="img/portfolio/3.png" alt="Portfolio" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio End -->
+
+        <!-- Contact Us Start -->
+        <section id="cta" class="cta grey lighten-4 scrollspy">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3"> Contact Us </h3>
+                <div class="row">
+                    <div class="col m5 s12">
+                        <div class="card-panel blue darken-2 center">
+                            <i class="material-icons white-text">email</i>
+                            <h5 class="white-text"> Contact Us </h5>
+                            <p class="white-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quaerat!
+                            </p>
+                        </div>
+                        <ul class="collection with-header">
+                            <li class="collection-header">
+                                <h4 class="light center"> Our Office </h4>
+                                <li class="collection-item"> Perum BCF V Sekawan Anggun </li>
+                                <li class="collection-item"> Blok D No. 18 </li>
+                                <li class="collection-item"> Bulusidokare (68126), Jawa Timur </li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col m7 s12">
+                        <form>
+                            <div class="card-panel">
+                                <h5 class="light"> Please fill out this form </h5>
+                                <div class="input-field">
+                                    <input type="text" name="nama" id="nama">
+                                    <label for="nama">Nama</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="text" name="alamat" id="alamat">
+                                    <label for="alamat">Alamat</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="text" name="notelp" id="notelp">
+                                    <label for="notelp">No. Telp</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" name="email" id="email">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea name="pesan" id="pesan"class="materialize-textarea"></textarea>
+                                    <label for="pesan">Pesan</label>
+                                </div>
+                                <button type="submit" class="btn blue darken-2"> Submit </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Us End -->
+
+        <!-- Footer Start -->
+        <footer id="footer" class="footer blue darken-2">
+            <div class="container">
+                <p class="white-text center flow-text">Copyright&copy; 2019 Bagoes IT</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>
@@ -144,6 +280,15 @@
         const parallax = document.querySelectorAll('.parallax');
         M.Parallax.init(parallax);
 
+        //Lightbox
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        // Scrollspy
+        const scrollspy = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scrollspy,{
+            scrollOffset: 50
+        });
 
       </script>
     </body>
