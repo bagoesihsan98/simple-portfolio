@@ -54,6 +54,44 @@
     font-weight: 500;
 }
 
+/* Info Panel */
+.info-panel
+{
+    box-shadow: 0 3px 20px rgba(0,0,0,.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -100px;
+    padding: 10px;
+}
+
+.info-panel .row
+{
+    padding-top: 30px;
+}
+
+.info-panel img
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p
+{
+    font-size: 14px;
+    counter-reset: #acacac;
+    font-weight: 200;
+}
+
 /* UTILITY */
 .tombol
 {
