@@ -97,6 +97,7 @@
 .workingspace
 {
     margin-top: 120px;
+    text-align: center;
 }
 
 .workingspace h3
@@ -105,7 +106,6 @@
     font-weight: 200;
     text-transform: uppercase;
     margin-top: 30px;
-    text-align: center;
 }
 
 .workingspace h3 span
@@ -118,6 +118,67 @@
     font-size: 18px;
     color: #acacac;
     margin: 25px 0;
+}
+
+/* Testimonial */
+.testimonial
+{
+    margin-top: 100px;
+}
+
+.testimonial h5
+{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.testimonial figure img
+{
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.testimonial figure img.utama
+{
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.testimonial figure h5
+{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1C2C5D;
+}
+
+.testimonial figure p
+{
+    font-size: 12px;
+    color: #ACACAC;
+    margin-top: -5px;
+}
+
+.testimonial figcaption
+{
+    text-align: center;
+}
+
+/* Footer */
+
+.footer
+{
+    margin-top: 100px;
+}
+
+.footer p
+{
+    color: #ACACAC;
+    font-size: 14px;
 }
 
 /* UTILITY */
@@ -164,9 +225,19 @@
         font-size: 62px;
     }
 
-    .workingspace h3
+    .workingspace
     {
         text-align: left;
+    }
+
+    .testimonial h5
+    {
+        font-size: 32px;
+    }
+
+    .footer p
+    {
+        font-size: 18px;
     }
 
 }
